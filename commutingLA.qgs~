@@ -19,6 +19,9 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
+    <layer-tree-layer source="./Commute_Time_BGRP10.csv" id="Commute_Time_BGRP10_39425a6d_e600_48cd_8aff_96d7d617830d" expanded="1" providerKey="ogr" checked="Qt::Checked" name="Commute_Time_BGRP10">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer source="./Shp/clippedLA.shp" id="clippedLA_93a8114b_06b1_43d2_ab05_b356887be7cd" expanded="1" providerKey="ogr" checked="Qt::Checked" name="clippedLA">
       <customproperties/>
     </layer-tree-layer>
@@ -28,6 +31,7 @@
     <custom-order enabled="0">
       <item>metroLA_0101d28a_7893_4e4b_b1ce_be3622992dad</item>
       <item>clippedLA_93a8114b_06b1_43d2_ab05_b356887be7cd</item>
+      <item>Commute_Time_BGRP10_39425a6d_e600_48cd_8aff_96d7d617830d</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings intersection-snapping="0" mode="2" type="1" tolerance="12" unit="1" enabled="0">
@@ -40,10 +44,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>-119.3391533928316619</xmin>
-      <ymin>33.53193007831151817</ymin>
-      <xmax>-116.79321465478059849</xmax>
-      <ymax>34.59342596065863518</ymax>
+      <xmin>-118.50098582754242216</xmin>
+      <ymin>33.5705966228144419</ymin>
+      <xmax>-117.6974192508238275</xmax>
+      <ymax>34.63206210080827674</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -62,6 +66,11 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
+    <legendlayer showFeatureCount="0" drawingOrder="-1" open="true" checked="Qt::Checked" name="Commute_Time_BGRP10">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="Commute_Time_BGRP10_39425a6d_e600_48cd_8aff_96d7d617830d" visible="1" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer showFeatureCount="0" drawingOrder="-1" open="true" checked="Qt::Checked" name="clippedLA">
       <filegroup hidden="false" open="true">
         <legendlayerfile layerid="clippedLA_93a8114b_06b1_43d2_ab05_b356887be7cd" visible="1" isInOverview="0"/>
@@ -76,6 +85,188 @@
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
+    <maplayer minScale="1e+08" readOnly="0" maxScale="0" autoRefreshTime="0" type="vector" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" geometry="No geometry">
+      <id>Commute_Time_BGRP10_39425a6d_e600_48cd_8aff_96d7d617830d</id>
+      <datasource>./Commute_Time_BGRP10.csv</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Commute_Time_BGRP10</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields>
+        <field expression="lpad( &quot;bgrp&quot;,12,'0')" precision="0" type="10" subType="0" comment="" length="0" typeName="string" name="geoid"/>
+      </expressionfields>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"bgrp"</value>
+        </property>
+      </customproperties>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="bgrp">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="P_less_30">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="P_30_60">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="P_60_90">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="P_more_90">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geoid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="bgrp" name=""/>
+        <alias index="1" field="P_less_30" name=""/>
+        <alias index="2" field="P_30_60" name=""/>
+        <alias index="3" field="P_60_90" name=""/>
+        <alias index="4" field="P_more_90" name=""/>
+        <alias index="5" field="geoid" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="bgrp" applyOnUpdate="0"/>
+        <default expression="" field="P_less_30" applyOnUpdate="0"/>
+        <default expression="" field="P_30_60" applyOnUpdate="0"/>
+        <default expression="" field="P_60_90" applyOnUpdate="0"/>
+        <default expression="" field="P_more_90" applyOnUpdate="0"/>
+        <default expression="" field="geoid" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="bgrp"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="P_less_30"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="P_30_60"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="P_60_90"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="P_more_90"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="geoid"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="bgrp" exp=""/>
+        <constraint desc="" field="P_less_30" exp=""/>
+        <constraint desc="" field="P_30_60" exp=""/>
+        <constraint desc="" field="P_60_90" exp=""/>
+        <constraint desc="" field="P_more_90" exp=""/>
+        <constraint desc="" field="geoid" exp=""/>
+      </constraintExpressions>
+      <expressionfields>
+        <field expression="lpad( &quot;bgrp&quot;,12,'0')" precision="0" type="10" subType="0" comment="" length="0" typeName="string" name="geoid"/>
+      </expressionfields>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column hidden="0" type="field" width="-1" name="bgrp"/>
+          <column hidden="0" type="field" width="-1" name="P_less_30"/>
+          <column hidden="0" type="field" width="-1" name="P_30_60"/>
+          <column hidden="0" type="field" width="-1" name="P_60_90"/>
+          <column hidden="0" type="field" width="-1" name="P_more_90"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"bgrp"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
     <maplayer minScale="1e+08" simplifyMaxScale="1" readOnly="0" labelsEnabled="0" maxScale="0" autoRefreshTime="0" type="vector" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyLocal="1" styleCategories="AllStyleCategories" geometry="Polygon">
       <extent>
         <xmin>-118.94450199994030015</xmin>
@@ -157,8 +348,127 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 symbollevels="0" type="singleSymbol" enableorderby="0" forceraster="0">
+      <renderer-v2 symbollevels="0" attr="drivePcnt" type="graduatedSymbol" enableorderby="0" graduatedMethod="GraduatedColor" forceraster="0">
+        <ranges>
+          <range lower="0.000000000000000" upper="76.765600000000006" symbol="0" label="0 - 77" render="true"/>
+          <range lower="76.765600000000006" upper="84.694000000000003" symbol="1" label="77 - 85" render="true"/>
+          <range lower="84.694000000000003" upper="89.545800000000000" symbol="2" label="85 - 90" render="true"/>
+          <range lower="89.545800000000000" upper="93.722399999999993" symbol="3" label="90 - 94" render="true"/>
+          <range lower="93.722399999999993" upper="100.000000000000000" symbol="4" label="94 - 100" render="true"/>
+        </ranges>
         <symbols>
+          <symbol force_rhr="0" clip_to_extent="1" type="fill" alpha="1" name="0">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,255,255,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" type="fill" alpha="1" name="1">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,191,191,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" type="fill" alpha="1" name="2">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,128,128,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" type="fill" alpha="1" name="3">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,64,64,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" type="fill" alpha="1" name="4">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,0,0,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
           <symbol force_rhr="0" clip_to_extent="1" type="fill" alpha="1" name="0">
             <layer class="SimpleFill" enabled="1" pass="0" locked="0">
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -171,7 +481,7 @@
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="no"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option value="" type="QString" name="name"/>
@@ -181,11 +491,23 @@
               </data_defined_properties>
             </layer>
           </symbol>
-        </symbols>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="255,255,255,255"/>
+          <prop k="color2" v="255,0,0,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="rampType" v="gradient"/>
+        </colorramp>
+        <mode name="quantile"/>
+        <symmetricMode symmetryPoint="0" astride="false" enabled="false"/>
         <rotation/>
         <sizescale/>
+        <labelformat format="%1 - %2" trimtrailingzeroes="false" decimalplaces="1"/>
       </renderer-v2>
       <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>GEOID</value>
+        </property>
         <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -226,34 +548,46 @@
             </config>
           </editWidget>
         </field>
+        <field name="drivePcnt">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
       </fieldConfiguration>
       <aliases>
         <alias index="0" field="COUNTYFP" name=""/>
         <alias index="1" field="GEOID" name=""/>
+        <alias index="2" field="drivePcnt" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
         <default expression="" field="COUNTYFP" applyOnUpdate="0"/>
         <default expression="" field="GEOID" applyOnUpdate="0"/>
+        <default expression="" field="drivePcnt" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="COUNTYFP"/>
         <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="GEOID"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="drivePcnt"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" field="COUNTYFP" exp=""/>
         <constraint desc="" field="GEOID" exp=""/>
+        <constraint desc="" field="drivePcnt" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortOrder="1" actionWidgetStyle="dropDown" sortExpression="&quot;Drive&quot;">
         <columns>
           <column hidden="0" type="field" width="-1" name="COUNTYFP"/>
           <column hidden="0" type="field" width="-1" name="GEOID"/>
           <column hidden="1" type="actions" width="-1"/>
+          <column hidden="0" type="field" width="-1" name="drivePcnt"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -285,11 +619,23 @@ def my_form_open(dialog, layer, feature):
       <editorlayout>generatedlayout</editorlayout>
       <editable>
         <field editable="1" name="COUNTYFP"/>
+        <field editable="0" name="Drive"/>
         <field editable="1" name="GEOID"/>
+        <field editable="0" name="P_30_60"/>
+        <field editable="0" name="P_60_90"/>
+        <field editable="0" name="P_less_30"/>
+        <field editable="0" name="P_more_90"/>
+        <field editable="1" name="drivePcnt"/>
       </editable>
       <labelOnTop>
         <field name="COUNTYFP" labelOnTop="0"/>
+        <field name="Drive" labelOnTop="0"/>
         <field name="GEOID" labelOnTop="0"/>
+        <field name="P_30_60" labelOnTop="0"/>
+        <field name="P_60_90" labelOnTop="0"/>
+        <field name="P_less_30" labelOnTop="0"/>
+        <field name="P_more_90" labelOnTop="0"/>
+        <field name="drivePcnt" labelOnTop="0"/>
       </labelOnTop>
       <widgets/>
       <previewExpression>GEOID</previewExpression>
@@ -405,6 +751,9 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>AFFGEOID</value>
+        </property>
         <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -602,6 +951,7 @@ def my_form_open(dialog, layer, feature):
   <layerorder>
     <layer id="metroLA_0101d28a_7893_4e4b_b1ce_be3622992dad"/>
     <layer id="clippedLA_93a8114b_06b1_43d2_ab05_b356887be7cd"/>
+    <layer id="Commute_Time_BGRP10_39425a6d_e600_48cd_8aff_96d7d617830d"/>
   </layerorder>
   <properties>
     <WFSLayers type="QStringList"/>
