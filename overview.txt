@@ -18,12 +18,40 @@ Due Monday the 16th @ noon:
 Ideas:
 *******************************
 
-CBG
--Commuting Time
--Poverty
--Commuting Mode
+-Pollination and fragmentation?
 
-Core Based statistical area
+POLLINATION
+
+This map layer depicts the total acres of agricultural crops within a subwatershed (12-digit HUC) that require or would benefit from the presence of pollinators, 
+but are without any nearby supporting habitat for 2006-2010.
+
+NATCLASS
+This map illustrates the percent of land within each subwatershed that is covered by small patches of natural areas for 2006-2010.
+ Small natural areas are less 500 acres and covered by forests, shrubs, grasslands, barren land, or wetlands.
+ It excludes areas that are covered by agriculture and developed land.
+
+
+
+
+
+CRP
+This map portrays the acres of land within each subwatershed (12-digit HUC) that are enrolled in the US Department of Agriculture's Conservation Reserve Program (CRP). 
+The CRP is a program administered by the Farm Service Agency; 
+farmers in the program receive annual payments and establishment cost share 
+The money goes to remove environmentally sensitive land from crop production and instead plant perennial species that provide environmental benefits.
+
+
+
+
+
+
+OR
+
+Solar and Wind Potential
+Solar_energy, Wind_Energy_20171013
+
+
+
 
 Project linework
 

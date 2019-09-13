@@ -1,0 +1,487 @@
+<?xml version="1.0"?>
+<metadata>
+	<Esri>
+		<CreaDate>20190325</CreaDate><CreaTime>12074800</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\V18OVHRTTF760\D$\Public\Data\projects\EnviroAtlas_Public\EDG_Download_STG\National\CONUS_metrics_Mar2019_METADATA\Wet550</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="D:\Public\Data\projects\EnviroAtlas_Public\FGDBs4EDG\CONUS\CONUS_metrics_October2017_METADATA\CONUS_metrics_October2017_METADATA\TableMetadata\Wet550" dest="\\V18OVHRTTF760\D$\Public\Data\projects\EnviroAtlas_Public\EDG_Download_STG\National\CONUS_metrics_Mar2019_METADATA\Wet550" date="20190325" time="12074800"></copy></copyHistory></DataProperties></Esri>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>environment</themekey>
+				<themekey>farming</themekey>
+			</theme>
+			<theme>
+				<themekt>EPA GIS Keyword Thesaurus</themekt>
+				<themekey>Agriculture</themekey>
+				<themekey>Ecosystem</themekey>
+				<themekey>Environment</themekey>
+			</theme>
+			<theme>
+				<themekt>EnviroAtlas</themekt>
+				<themekey>12-digit HUCs</themekey>
+				<themekey>Agriculture</themekey>
+				<themekey>Ecosystem Services</themekey>
+				<themekey>EnviroAtlas</themekey>
+				<themekey>Environment</themekey>
+				<themekey>Environmental Atlas</themekey>
+				<themekey>Green Space</themekey>
+				<themekey>Land Cover</themekey>
+				<themekey>Soils</themekey>
+				<themekey>Water</themekey>
+				<themekey>Wetlands</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Alabama</placekey>
+				<placekey>Arizona</placekey>
+				<placekey>Arkansas</placekey>
+				<placekey>California</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Connecticut</placekey>
+				<placekey>Delaware</placekey>
+				<placekey>Florida</placekey>
+				<placekey>Georgia</placekey>
+				<placekey>Idaho</placekey>
+				<placekey>Illinois</placekey>
+				<placekey>Indiana</placekey>
+				<placekey>Iowa</placekey>
+				<placekey>Kansas</placekey>
+				<placekey>Kentucky</placekey>
+				<placekey>Louisiana</placekey>
+				<placekey>Maine</placekey>
+				<placekey>Maryland</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>Michigan</placekey>
+				<placekey>Minnesota</placekey>
+				<placekey>Mississippi</placekey>
+				<placekey>Missouri</placekey>
+				<placekey>Montana</placekey>
+				<placekey>Nebraska</placekey>
+				<placekey>Nevada</placekey>
+				<placekey>New Hampshire</placekey>
+				<placekey>New Jersey</placekey>
+				<placekey>New Mexico</placekey>
+				<placekey>New York</placekey>
+				<placekey>North Carolina</placekey>
+				<placekey>North Dakota</placekey>
+				<placekey>Ohio</placekey>
+				<placekey>Oklahoma</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Pennsylvania</placekey>
+				<placekey>Rhode Island</placekey>
+				<placekey>South Carolina</placekey>
+				<placekey>South Dakota</placekey>
+				<placekey>Tennessee</placekey>
+				<placekey>Texas</placekey>
+				<placekey>United States</placekey>
+				<placekey>Utah</placekey>
+				<placekey>Vermont</placekey>
+				<placekey>Virginia</placekey>
+				<placekey>Washington</placekey>
+				<placekey>Washington DC</placekey>
+				<placekey>West Virginia</placekey>
+				<placekey>Wisconsin</placekey>
+				<placekey>Wyoming</placekey>
+			</place>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<origin>US Environmental Protection Agency (US EPA)</origin>
+				<title>EnviroAtlas - Land Cover in Areas of High Water Accumulation in 2011 for the Conterminous United States</title>
+				<pubinfo>
+					<publish>U.S. EPA Office of Research &amp; Development (ORD) - National Exposure Research Laboratory (NERL)</publish>
+					<pubplace>Research Triangle Park, NC</pubplace>
+				</pubinfo>
+				<pubdate>20170505</pubdate>
+				<onlink>https://edg.epa.gov/data/PUBLIC/ORD/ENVIROATLAS/National</onlink>
+				<onlink>https://enviroatlas.epa.gov/arcgis/rest/services/National/National2016_master/MapServer</onlink>
+				<onlink>https://www.epa.gov/enviroatlas/enviroatlas-data</onlink>
+				<onlink>https://www.epa.gov/enviroatlas</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>Publication date</current>
+			<timeinfo>
+				<mdattim>
+					<sngdate>
+						<caldate>2006</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>20091230</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>2010</caldate>
+					</sngdate>
+				</mdattim>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-128.02839229</westbc>
+				<eastbc>-65.20336449</eastbc>
+				<northbc>51.6773602</northbc>
+				<southbc>22.7348894</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None</accconst>
+		<useconst>None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the EPA would be appreciated.</useconst>
+		<descript>
+			<abstract>This EnviroAtlas dataset contains Land Cover data by Wetness Index for each Watershed Boundary Dataset (WBD) 12-Digit Hydrologic Unit Code (HUC-12) of the conterminous United States, based on the National Land Cover Database (NLCD) from 2011, the December 30, 2009 Soil Survey Geographic (SSURGO) Database, and the USDA's Cropland Data Layer (CDL) data from 2011. The dataset includes the percentages of each HUC-12 belonging to several land cover groups that are on land with a Wetness Index greater than 550 (WET550). This dataset was produced by the US EPA to support research and online mapping activities related to EnviroAtlas. EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://edg.epa.gov/data/Public/ORD/EnviroAtlas) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas Fact Sheet (https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets).</abstract>
+			<purpose>Knowing potential runoff-contributing areas can help target
+			implementation of best management practices (BMPs) to improve water quality. Wet areas maps may be compared with EPA impaired waters data to assist in planning to maximize filtration capabilities when implementing Total Maximum Daily Loads in streams. Wet areas restored alongside or upstream of impaired stream segments may help reduce sediment and nutrient loads to streams. This dataset allows the user to join the results of Wet550 Land Cover data analyses for the total drainage area to the HUC-12 GIS file for subsequent display or analyses. The overall goal of EnviroAtlas is to employ and develop the best available science to map indicators of ecosystem services production, demand, and drivers for the nation.</purpose>
+		</descript>
+		<secinfo>
+			<secsys>https://project-open-data.github.io/schema/#accessLevel</secsys>
+			<secclass>public</secclass>
+			<sechandl>Standard Technical Controls</sechandl>
+		</secinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntperp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Tests for integrity have not been performed.</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at https://www.epa.gov/geospatial/geospatial-policies-and-standards</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>2014</procdate>
+				<procdesc>The Compound Topographic Index (CTI) used to identify wet areas was calculated by Tetra Tech. The CTI is an estimate of soil moisture based on the slope and flow accumulation (the upstream contributing area) of a pixel. Creating the Wetness Index (CTI) grid required two other grids as input -- a slope raster and a flow accumulation raster. These two inputs were placed appropriately in the following equation into the raster calculator tool (previously known as Single Output Map Algebra in ESRI software packages released before ArcGIS v10.x). CTI = 100 * [ln (As / (tan(beta))] Where As = Area Value calculated as (flow accumulation + 1) * (pixel area m2) and beta is the slope expressed in radians. For this process the provided slope raster was converted from percent slope to radians.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170301</procdate>
+				<procdesc>Created binary raster from the CTI wetness index using "Con" Tool, Values &gt;550 = 1, else = 0. </procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170301</procdate>
+				<procdesc>Multiplied binary raster with CDL/NLCD 2011 composite layer to select out wet areas</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170301</procdate>
+				<procdesc>Reclassified resultant raster to remove open water and match CDL/NLCD classifications</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170302</procdate>
+				<procdesc>Calculated land cover on wet areas by 12-digit HUC using the  NHDPlusV2_WBDSnapshot_EnviroAtlas_CONUS raster using the "Tabulate Area" tool</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170303</procdate>
+				<procdesc>Exported table and aggregated values by land cover type designation (Agriculture, Developed Land, Forest, Range, Wetlands)</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170425</procdate>
+				<procdesc>Calculated land cover area using ATtILA Landscape Characteristics land cover proportions for all types except open water based on CDL/NLCD layer</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170426</procdate>
+				<procdesc>Calculated percent land cover areas (divide aggregated associated land cover by total land area in HUC) using Excel.</procdesc>
+			</procstep>
+			<procstep>
+				<procdate>20170426</procdate>
+				<procdesc>Corrected for calculations where percentages = 0 by converting NULL values to 0.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<plandu>meters</plandu>
+					<coordrep>
+						<absres>0.000001</absres>
+						<ordres>0.000001</ordres>
+					</coordrep>
+				</planci>
+				<mapproj>
+					<mapprojn>Albers Conical Equal Area</mapprojn>
+					<albers>
+						<stdparll>29.500000</stdparll>
+						<stdparll>45.500000</stdparll>
+						<longcm>-96.000000</longcm>
+						<latprjo>23.000000</latprjo>
+						<feast>0.000000</feast>
+						<fnorth>0.000000</fnorth>
+					</albers>
+				</mapproj>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>https://edg.epa.gov/EPA_Data_License.html</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metd>20170505</metd>
+		<metfrd>20210505</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Environmental Protection Agency, Office of Research and Development-Sustainable and Healthy Communities Research Program, EnviroAtlas</cntorg>
+					<cntper>EnviroAtlas Coordinator</cntper>
+				</cntorgp>
+				<cntpos>Geospatial Data Owner</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 T.W. Alexander Drive</address>
+					<city>Research Triangle Park</city>
+					<state>NC</state>
+					<postal>27709</postal>
+				</cntaddr>
+				<cntvoice>(919) 541-3832</cntvoice>
+				<cntemail>EnviroAtlas@epa.gov</cntemail>
+				<cntinst>https://www.epa.gov/enviroatlas</cntinst>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>Wet550_2011</enttypl>
+				<enttypd>Percentages and areas of land cover in areas of high water accumulation (wetness index greater than 550) in 2011</enttypd>
+				<enttypds>Tetra Tech, Inc.</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>HUC_12</attrlabl>
+				<attrdef>Twelve Digit Hydrologic Unit Code. This field provides a unique 12-digit code for each subwatershed. Numbers were assigned in an upstream to downstream fashion. Where no downstream/upstream relationship could be determined, numbers were assigned in a clockwise fashion.</attrdef>
+				<attrdefs>Federal Guidelines, Requirements, and Procedures for the National Watershed Boundary Dataset; Chapter 3 of Section A; Federal Standards, Book 11, Collection and Delineation of Spatial Data; Techniques and Methods 11-A3.</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>010000000000</rdommin>
+						<rdommax>999999999999</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LAND_AREA</attrlabl>
+				<attrdef>Area of all land covers (excluding open water) in square meters calculated using ATtILA tool</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>8971013700</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_WETL_A</attrlabl>
+				<attrdef>Area of wetlands in square meters on land that is frequently or periodically wet due to high water accumulation (CTI index &gt;550)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>2183647500</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_WETL</attrlabl>
+				<attrdef>Wetlands in areas of high water accumulation (wetness index greater than 550) as a percentage of HUC_12 land area (LAND_AREA)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>99.67</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_RNG_A</attrlabl>
+				<attrdef>Area of Range Land in square meters on land that is frequently or periodically wet due to high water accumulation (CTI index &gt;550)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>4855421700</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_RNG</attrlabl>
+				<attrdef>Range Land in areas of high water accumulation (wetness index greater than 550) as a percentage of HUC_12 land area (LAND_AREA)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>99.92</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_AG_A</attrlabl>
+				<attrdef>Area of Agriculture in square meters on land that is frequently or periodically wet due to high water accumulation (CTI index &gt;550)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>968937300</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_AG</attrlabl>
+				<attrdef>Agriculture in areas of high water accumulation (wetness index greater than 550) as a percentage of HUC_12 land area (LAND_AREA)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_URB_A</attrlabl>
+				<attrdef>Area of Developed Land in square meters on land that is frequently or periodically wet due to high water accumulation (CTI index &gt;550)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>311622300</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_URB</attrlabl>
+				<attrdef>Developed Land in areas of high water accumulation (wetness index greater than 550) as a percentage of HUC_12 land area (LAND_AREA)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>95.12</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_FOR_A</attrlabl>
+				<attrdef>Area of Forest in square meters on land that is frequently or periodically wet due to high water accumulation (CTI index &gt;550)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>222068700</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_FOR</attrlabl>
+				<attrdef>Forest in areas of high water accumulation (wetness index greater than 550) as a percentage of HUC_12 land area (LAND_AREA)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>71.53</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_OTHER_A</attrlabl>
+				<attrdef>Combined Area of Barren Land and Ice &amp; snow in square meters on land that is frequently or periodically wet due to high water accumulation (CTI index &gt;550)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>813987900</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_OTHER</attrlabl>
+				<attrdef>Combined Percentage of Barren Land and Ice &amp; Snow in areas of high water accumulation (wetness index greater than 550) as a percentage of HUC_12 land area (LAND_AREA)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_TOTAL_A</attrlabl>
+				<attrdef>Combined area of all land covers in square meters on land that is frequently or periodically wet due to high water accumulation by HUC_12 (CTI index &gt;550)</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>6028153200</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WET_TOTAL</attrlabl>
+				<attrdef>Percentage of all land covers on land that is frequently or periodically wet due to high water accumulation compared to total HUC_12 area</attrdef>
+				<attrdefs>US EPA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eadetcit>https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets</eadetcit>
+			<eaover>For more information about EnviroAtlas data, go to https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets.
+
+This dataset contains data on agricultural land coverage, by crop type, for each Watershed Boundary Dataset (WBD) 12-Digit Hydrologic Unit Code (HUC-12), based on the National Land Cover Database (NLCD) and the USDA's Cropland Data Layer (CDL). These combined sources provide NLCD land cover and agricultural land covers. Included information is percentages of WBD HUC-12 belonging to land cover groups that are on land with a Wetness Index greater than 550 (WET550). A wetness index, or Composite Topographic Index (CTI), is based on watershed contributing area, slope, and overland flow. Percentages are calculated by raster cell counts; cell size of 30m x 30m and an area of 900 m2 per raster cell.
+
+ A comprehensive list of metric creation steps is included in the Processing Steps. Classification Definitions According to CDL/NLCD 2011 hybrid land types:
+ALL: all types, excluding 111 (Open Water)
+Wetlands: (190, 195)
+Other: (112, 131)
+Range: (152, 171)
+Forest: (141, 142, 143)
+Developed: (121, 122, 123, 124)
+Agriculture: (1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 28, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 66, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 92, 181, 182, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249)</eaover>
+		</overview>
+	</eainfo>
+</metadata>
