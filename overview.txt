@@ -33,25 +33,33 @@ This map illustrates the percent of land within each subwatershed that is covere
 
 
 
-
-CRP
-This map portrays the acres of land within each subwatershed (12-digit HUC) that are enrolled in the US Department of Agriculture's Conservation Reserve Program (CRP). 
-The CRP is a program administered by the Farm Service Agency; 
-farmers in the program receive annual payments and establishment cost share 
-The money goes to remove environmentally sensitive land from crop production and instead plant perennial species that provide environmental benefits.
+https://water.usgs.gov/nawqa/pnsp/usage/maps/county-level/PesticideUseEstimates/EPest.county.estimates.2010.txt 
+-County data
 
 
+-BEES ARE KEY POLLINATOR
+https://ucnrs.org/role-honey-bees-ecosystem-pollination/
+
+-Cali agriculture stats
+http://www.cdfa.ca.gov/Statistics/
+
+_Berkeley Article
+https://cmr.berkeley.edu/blog/2016/10/colony-collapse-disorder/#fn7 
+
+Cali Article
+https://west.stanford.edu/news/blogs/and-the-west-blog/2018/bees-for-hire-california-almonds-now-are-migratory-colonies-biggest-task
 
 
+Greenpeace
+http://sos-bees.org/causes/
 
+NYT
 
-OR
+https://www.nytimes.com/2018/08/15/magazine/the-super-bowl-of-beekeeping.html
 
-Solar and Wind Potential
-Solar_energy, Wind_Energy_20171013
-
-
-
+Surpass
+https://royalsocietypublishing.org/doi/10.1098/rspb.2018.2901
+https://ucnrs.org/foreign-bees-monopolize-southern-california-flower-resources/
 
 Project linework
 
