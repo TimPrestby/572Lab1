@@ -18,18 +18,8 @@ Due Monday the 16th @ noon:
 Ideas:
 *******************************
 
--Pollination and fragmentation?
-
-POLLINATION
-
-This map layer depicts the total acres of agricultural crops within a subwatershed (12-digit HUC) that require or would benefit from the presence of pollinators, 
-but are without any nearby supporting habitat for 2006-2010.
-
-NATCLASS
-This map illustrates the percent of land within each subwatershed that is covered by small patches of natural areas for 2006-2010.
- Small natural areas are less 500 acres and covered by forests, shrubs, grasslands, barren land, or wetlands.
- It excludes areas that are covered by agriculture and developed land.
-
+Which bees?
+https://arboretum.ucdavis.edu/blog/beyond-honey-bee-learn-more-about-california-native-bees
 
 
 
